@@ -184,6 +184,7 @@ call s:hi('PmenuThumb' , 160 , 97    , 'None' , 'None')
 
 " SignColumn may relate to ale sign
 call s:hi('SignColumn' , 118 , s:bg , 'None' , 'None')
+call s:hi('SignColumn' , 238+s:bias , s:bg0 , 'None' , 'None')
 call s:hi('Todo'       , 172 , s:bg , 'bold' , 'bold')
 
 " VertSplit consistent with normal background to hide it
